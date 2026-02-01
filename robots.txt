@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://bep-chu-thieu-v1.vercel.app/sitemap.xml
