@@ -83,7 +83,7 @@ export async function fetchFeedbacks(): Promise<Feedback[]> {
         message: v(3)
       };
     })
-    .filter(item => item.name || item.phone) // Loại bỏ dòng trống
+    .filter((item:any) => item.name || item.phone) // Loại bỏ dòng trống
     .reverse(); 
   } catch (error) {
     console.error("Lỗi lấy feedback:", error);
